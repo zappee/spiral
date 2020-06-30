@@ -25,7 +25,7 @@ public class FrameDictionary extends Dictionary {
 
     /**
      * pattern 1
-     * direction: left to right then top to bottom
+     * direction: left -> right then top -> bottom
      */
     protected void pattern1() {
         startX++;
@@ -43,7 +43,7 @@ public class FrameDictionary extends Dictionary {
 
     /**
      * pattern 2
-     * direction: top to bottom then right to left
+     * direction: right -> left then bottom -> top
      */
     protected void pattern2() {
         endX--;

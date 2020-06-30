@@ -11,9 +11,10 @@ public class SnakeDictionary extends Dictionary {
 
     @Override
     public String[] createPattern() {
-        while (dictionaryIndex < matrixSize * matrixSize) {
+        int pixelsInMatrix = matrixSize * matrixSize;
+        while (dictionaryIndex < pixelsInMatrix) {
             pattern1();
-            if (dictionaryIndex < matrixSize * matrixSize) {
+            if (dictionaryIndex < pixelsInMatrix) {
                 pattern2();
             }
         }

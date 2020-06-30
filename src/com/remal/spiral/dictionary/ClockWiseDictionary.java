@@ -8,7 +8,8 @@ public class ClockWiseDictionary extends FrameDictionary {
 
     @Override
     public String[] createPattern() {
-        while (dictionaryIndex < matrixSize * matrixSize) {
+        int pixelsInMatrix = matrixSize * matrixSize;
+        while (dictionaryIndex < pixelsInMatrix) {
             pattern1();
             pattern2();
         }
