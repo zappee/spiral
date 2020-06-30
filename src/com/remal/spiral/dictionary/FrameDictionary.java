@@ -1,11 +1,31 @@
 package com.remal.spiral.dictionary;
 
+/**
+ * Frame pattern implementation.
+ * Pattern: a b c d e f
+ *          t         g
+ *          s         h
+ *          r         i
+ *          q         j
+ *          p o n m l k
+ *
+ * <p>
+ * created on 30/06/2020
+ * </p>
+ *
+ * @author arnold.somogyi@gmail.com
+ */
 public class FrameDictionary extends Dictionary {
 
     protected int dictionaryIndex = 0;
     protected int startX, endX;
     protected int startY, endY;
 
+    /**
+     * Constructor.
+     *
+     * @param matrixSize the size of the matrix
+     */
     public FrameDictionary(int matrixSize) {
         super(matrixSize);
         startX = -1;
@@ -14,6 +34,12 @@ public class FrameDictionary extends Dictionary {
         endY = matrixSize - 1;
     }
 
+    /**
+     * Pattern builder method.
+     * The pattern describes how to fill in the Matrix.
+     *
+     * @return the pattern
+     */
     @Override
     public String[] createPattern() {
         while (dictionaryIndex < matrixSize) {
@@ -24,7 +50,7 @@ public class FrameDictionary extends Dictionary {
     }
 
     /**
-     * pattern 1
+     * Pattern 1
      * direction: left -> right then top -> bottom
      */
     protected void pattern1() {
@@ -42,7 +68,7 @@ public class FrameDictionary extends Dictionary {
     }
 
     /**
-     * pattern 2
+     * Pattern 2
      * direction: right -> left then bottom -> top
      */
     protected void pattern2() {

@@ -6,9 +6,26 @@ import com.remal.spiral.dictionary.FrameDictionary;
 import com.remal.spiral.dictionary.SnakeDictionary;
 import com.remal.spiral.spiral.Spiral;
 
+/**
+ * Test class for the Spiral.
+ *
+ * <p>
+ * created on 30/06/2020
+ * </p>
+ *
+ * @author arnold.somogyi@gmail.com
+ */
 public class Test {
+    /**
+     * The size of the matrix.
+     */
     private static final int MATRIX_SIZE = 6;
 
+    /**
+     * Entrance point of the application.
+     *
+     * @param args application start parameters, not used
+     */
     public static void main(String[] args) {
         String sentence = "abcdefghijklmnopqrstuvwxyz1234567890";
         String[][] spiral = new String[MATRIX_SIZE][MATRIX_SIZE];

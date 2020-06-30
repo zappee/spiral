@@ -1,6 +1,22 @@
 package com.remal.spiral.spiral;
 
+/**
+ * This is a helper class for to fill in the Spiral Matrix.
+ *
+ * <p>
+ * created on 30/06/2020
+ * </p>
+ *
+ * @author arnold.somogyi@gmail.com
+ */
 public class Spiral {
+
+    /**
+     *
+     * @param sentence the given text which will be spiralized
+     * @param pattern the pattern, describe how the spiral looks like
+     * @param matrix the matrix, contains the final data
+     */
     public static void fill(String sentence, String[] pattern, String[][] matrix) {
         int i = 0;
         for (String coordinates : pattern) {
@@ -14,6 +30,11 @@ public class Spiral {
         }
     }
 
+    /**
+     * Print the martix to the screen.
+     *
+     * @param matrix the matrix to print
+     */
     public static void show(String[][] matrix) {
         for (String[] rows : matrix) {
             for (String row : rows) {
