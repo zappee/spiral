@@ -37,4 +37,4 @@ y z 1 2 3 4
 
 ### 🤝 Contributing
 
-Contributions, feature requests, and bug reports are always welcome! For more information, please visit my [homepage](https://zappee.github.io/opensource/).
+Contributions, feature requests, and bug reports are always welcome! For more information, please visit my [homepage](https://zappee.github.io).
