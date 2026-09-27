@@ -33,3 +33,8 @@ x w v u t s
 y z 1 2 3 4
 0 9 8 7 6 5
 ~~~~
+
+
+### 🤝 Contributing
+
+Contributions, feature requests, and bug reports are always welcome! For more information, please visit my [homepage](https://zappee.github.io/opensource/).
