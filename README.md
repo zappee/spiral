@@ -100,10 +100,6 @@ src/
    java -cp bin com.remal.spiral.Main
    ```
 
-### 6) Source core
-
-[https://github.com/zappee/web-scraper](https://github.com/zappee/spiral)
-
 ### 🤝 Contributing
 
 Contributions, feature requests, optimization, and bug reports are always welcome!
